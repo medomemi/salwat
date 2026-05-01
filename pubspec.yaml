@@ -1,0 +1,22 @@
+name: salah_app
+description: تطبيق التذكير بالصلاة على النبي ﷺ
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  # App icon - place your icon at assets/icon/icon.png (1024x1024 px)
+  # Then run: flutter pub run flutter_launcher_icons
